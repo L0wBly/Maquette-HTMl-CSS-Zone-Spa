@@ -1,0 +1,220 @@
+/* ================ IMPORT FONT ============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+
+/* ================ RESET =================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================ VARIABLE ================ */
+
+:root {
+    --background: #FFFFFF;
+    --texte-color: #60574b;
+    --background-nav: #161616;
+    --font-title: "Qwigley", cursive;
+    --color-title:  #E0C184;
+    --color-offer: #C2AFE4;
+    --lien-couleur: #8b7963;
+}
+
+/* ============== SETUP =============== */
+
+body {
+    min-height: auto;
+    font-family: "Open Sans";
+    background: var(--background);
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: var(--background-nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+header img {
+    padding: 1.5rem;
+    height: 20vh;
+}
+
+header nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: .5rem;
+    color: var(--color-title);
+    font-family: var(--font-title);
+    font-size: 2.7rem;
+    padding: 10px;
+}
+
+/* ================= SECTION ================= */
+
+.banner {
+    background-image: url('../image/fond.jpg');
+    height: 860px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .inner {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section .inner h1 {
+    font-family: var(--font-title);
+    color: var(--background);
+    font-size: 7.5rem;
+    font-weight: 300;
+}
+
+section .inner p {
+    font-family: var(--font-title);
+    color: var(--background);
+    font-size: 4.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* =========== DIV OFFER ============= */
+
+.offer {
+    height: 7rem;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+    background: var(--color-offer);
+    color: var(--background);
+}
+
+/* =========== MAIN CONTAINER ============== */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--background);
+    max-width: 100%;
+    height: 60vh;
+    padding: 4rem;
+}
+
+main .container {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .container p {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+main .container p a{
+    color: var(--lien-couleur);
+}
+
+main .container ul {
+    margin: 0 0 0 2rem;
+}
+
+main .container ul li {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+/* =========== DIV CONTAINER ============== */
+
+.about {
+    background: var(--lien-couleur);
+    height: 935px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container {
+    height: 100%;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+section .container .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    height: 100%;
+    padding: 7rem 3rem;
+}
+
+section .container .home h2 {
+    font-family: var(--font-title);
+    font-size: 3.5rem;
+    color: var(--background);
+    font-weight: 300;
+}
+
+section .container .home .Espaces {
+    height: 25vh;
+    width: 25vh;
+    text-align: center;
+    border-radius: 100%;
+}
+
+section .container .home p {
+    font-size: 1.5rem;
+    color: var(--background);
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+/* ============= DIV MAP =============== */
+
+.map {
+    height: 544px;
+}
+
+.map div
+.amp div iframe {
+    height: 100%;
+}
+
+/* ============= FOOTER =============== */
+
+footer {
+    height: 12vh;
+    background: var(--background-nav);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: var(--background);
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+}
