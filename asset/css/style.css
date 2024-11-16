@@ -301,7 +301,7 @@ footer p {
     }
 
     section .container .home p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     footer p {
@@ -330,7 +330,7 @@ footer p {
 
     .offer {
         height: auto;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     main .container p {
@@ -340,5 +340,9 @@ footer p {
 
     main .container ul li {
         font-size: 1rem;
+    }
+
+    section .container .home p {
+        font-size: 1.1rem;
     }
 }
