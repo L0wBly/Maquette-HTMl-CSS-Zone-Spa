@@ -74,10 +74,13 @@ header nav a {
 }
 
 section .inner {
-    height: 300px;
+    height: 400px;
+    width: 100%;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background: rgba(224,193,132,.25);
 }
 
 section .inner h1 {
@@ -85,6 +88,8 @@ section .inner h1 {
     color: var(--background);
     font-size: 7.5rem;
     font-weight: 300;
+    text-align: center;
+    
 }
 
 section .inner p {
@@ -320,7 +325,7 @@ footer p {
     }
 
     section .inner p {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .offer {
