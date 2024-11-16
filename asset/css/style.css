@@ -256,7 +256,7 @@ footer p {
     }
 
     section .inner {
-        height: 200px;
+        height: auto;
         align-items: center;
     }
 
