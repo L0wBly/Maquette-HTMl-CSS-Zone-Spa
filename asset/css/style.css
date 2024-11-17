@@ -185,7 +185,7 @@ section .container .home h2 {
     white-space: nowrap;
 }
 
-section .container .home .Espaces {
+section .container .home .espaces {
     height: 25vh;
     width: 25vh;
     text-align: center;
@@ -295,7 +295,7 @@ footer p {
         font-size: 3rem;
     }
 
-    section .container .home .Espaces {
+    section .container .home .espaces {
         height: 17.5vh;
         width: 17.5vh;
     }
