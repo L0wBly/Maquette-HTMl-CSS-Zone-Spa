@@ -132,7 +132,7 @@ main .container {
 
 main .container p {
     line-height: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 main .container p a{
@@ -145,7 +145,7 @@ main .container ul {
 
 main .container ul li {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 /* =========== DIV CONTAINER ============== */
@@ -193,7 +193,7 @@ section .container .home .espaces {
 }
 
 section .container .home p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--background);
     font-weight: 300;
     line-height: 2rem;
@@ -301,7 +301,7 @@ footer p {
     }
 
     section .container .home p {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     footer p {
@@ -343,6 +343,6 @@ footer p {
     }
 
     section .container .home p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
