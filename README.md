@@ -1,7 +1,7 @@
 
-# <p align="center">Maquette Responsive d'entrainement</p>
+# <p align="center">Maquette Responsive d'entrainement Zone Spa</p>
   
-Ce code à pour but de s'entraine en HTML et CSS et de continuer à utiliser le responsive. Ce code sert aussi à apprendre de nouvelle technique car le background-image ou l'ajout d'un map google;
+Ce code à pour but de s'entraine en HTML et CSS et de continuer à utiliser le responsive. Ce code sert aussi à apprendre de nouvelle technique comme le background-image ou l'ajout d'un map google. J'apprend aussi de nouvelle fonctionnalité comme le background image dans le css, les tableaux, les inputs et la balise select. 
 
 
 
@@ -9,6 +9,7 @@ Ce code à pour but de s'entraine en HTML et CSS et de continuer à utiliser le 
     
 - HTML
 - CSS
+- JS
 
 <hr>
 
