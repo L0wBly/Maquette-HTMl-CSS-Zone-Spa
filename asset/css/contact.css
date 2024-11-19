@@ -79,7 +79,6 @@ main {
     flex-direction: column;
     align-items: center;
     background: var(--background);
-    max-width: 100%;
     height: auto;
     padding: 4rem 4rem 2rem 4rem;
 }
@@ -266,12 +265,12 @@ form .checkbox2 {
 form .select {
     border: 0px;
     width: 100%;
-    height: 1.5rem;
 }
 
-form .select select {
-    border: none;
+form .select select {   
     width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 form .select select option {
@@ -289,6 +288,7 @@ form div button {
     width: 120px;
     background: var(--background-bouton);
     color: var(--background);
+    border: none;
 }
 
 /* ============= FOOTER =============== */
@@ -307,3 +307,92 @@ footer p {
     gap: 10px;
     font-size: 1.2rem;
 }
+
+
+/* =========== MEDIA QUERY ============== */
+
+@media screen and (max-width: 1500px){
+    main .container table {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1320px){
+    form .select select {
+        width: auto;
+        }
+        form {
+            width: 50%;
+        }
+    }
+
+@media screen and (max-width: 950px){
+        main .container h2 {
+            font-size: 3.5rem;
+        }
+    }
+
+@media screen and (max-width: 780px) {
+        header {
+            gap: .5rem;
+            flex-direction: column;
+        }
+
+        main .container h1 {
+            font-size: 4rem;
+        }
+
+        main .container table {
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            flex-direction: column;
+            align-items: center;
+            border: 0px solid var(--border-table);
+        }
+        
+        main .container h2 {
+            font-size: 2.5rem;
+        }
+
+        form {
+            width: auto;
+        }
+
+        form .checkbox div label {
+            font-size: 1rem;
+        }
+
+        form .checkbox2 {
+            font-size: 1rem;
+        }
+    }
+
+@media screen and (max-width: 620px) {
+        main .container h1 {
+            font-size: 3.5rem;
+        }
+
+        main .container h2 {
+            font-size: 2rem;
+        }
+
+        form .base {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        form .base div {
+            width: 100%;
+        }
+
+        footer p {
+            color: var(--background);
+            display: flex;
+            gap: 10px;
+            font-size: 1rem;
+        }
+        
+    }
