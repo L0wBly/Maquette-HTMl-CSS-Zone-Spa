@@ -345,11 +345,11 @@ form div button {
     background: var(--background-bouton);
     color: var(--background);
     border: none;
+    cursor: pointer;
 }
 
 form div button:hover {
     background: var(--background-nav);
-    cursor: pointer;
 }
 
 /* ============= FOOTER =============== */
