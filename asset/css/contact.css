@@ -34,6 +34,9 @@ body {
     min-height: auto;
     font-family: "Open Sans";
     background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ================= HEADER ================= */
@@ -44,6 +47,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
+    width: 100%;
 }
 
 header img {
@@ -68,6 +72,10 @@ header nav a {
     padding: 10px;
 }
 
+header nav a:hover {
+    color: var(--background);
+}
+
 header nav .contact:visited {
     color: var(--background);
 }
@@ -75,6 +83,7 @@ header nav .contact:visited {
 /* ================= MAIN ================= */
 
 main {
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,6 +271,11 @@ form .checkbox2 {
     font-weight: 300;
 }
 
+form .checkbox2 input:focus {
+    border: none;
+    outline: none;
+}
+
 form .select {
     border: 0px;
     width: 100%;
@@ -299,6 +313,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 footer p {
@@ -313,9 +328,19 @@ footer p {
 
 @media screen and (max-width: 1500px){
     main .container table {
+        table-layout: fixed;
         display: flex;
         justify-content: center;
-        width: 50%;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main .container table tbody tr .date{
+        width: 10%;
+    }
+
+    main .container table tbody tr td {
+        width: 10%;
     }
 }
 
@@ -325,6 +350,10 @@ footer p {
         }
         form {
             width: 50%;
+        }
+
+        tbody tr {
+            width: 100%;
         }
     }
 
@@ -352,13 +381,21 @@ footer p {
             align-items: center;
             border: 0px solid var(--border-table);
         }
+
+        main .container table caption {
+            width: 100%;
+        }
         
+        main .container table tbody {
+            width: 100%;
+        }
+
         main .container h2 {
             font-size: 2.5rem;
         }
 
         form {
-            width: auto;
+            width: 100%;    
         }
 
         form .checkbox div label {
@@ -396,3 +433,13 @@ footer p {
         }
         
     }
+
+@media screen and (max-width: 520px) {
+    header img {
+        height: 15vh;
+    }
+    
+    header nav a {
+        font-size: 1.8rem;
+    }
+}
